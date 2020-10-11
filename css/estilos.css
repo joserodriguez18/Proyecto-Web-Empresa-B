@@ -1,3 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
 body{
     background-color: #f2f2f2;
+    padding: 10px 20px;
+}
+
+button{
+    background-color: aqua;
+    color: fuchsia;
+    border: 1px solid fuchsia;
+    padding: 0px 10px;
+}
+
+button:hover{
+    background-color: fuchsia;
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 0px 10px;
 }
